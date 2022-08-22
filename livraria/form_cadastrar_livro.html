@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria - Cadastrar Livro</title>
+</head>
+<body>
+    <div class="banner"><h2>Livraria - Cadastrar Livro</h2></div>
+        <form name="cadastrar_livro" method="post" action="inserir_livro.php">
+            <br>Descrição: <input name="c_descricao" type=text size=50 maxlength=50><br>
+            Quantidade: <input name="c_quantidade" type=text size=5 maxlength=5><br>
+            Autor: <input name="c_autor" type=text size=50 maxlength=50><br>
+            Tipo de capa:<br> 
+            <input type="radio" name="tipo_capa" value="normal"></input>Capa normal<br>
+            <input type="radio" name="tipo_capa" value="dura"></input>Capa dura<br>
+            <!--Categoria-->
+            <div class="titulo_categoria">Categoria:</div><br>
+            <select name="categoria_livro">
+                <option>Selecione</option>
+                <option value="romance">Romance</option>
+                <option value="ficcao">Ficção</option>
+            </select></p>
+            <input type="checkbox" name="c_termo"> Aceita os Termos?</p>
+            <input type=submit value=Enviar>
+        </form>
+        </p><a href="index.html">Voltar para o menu</a><br>
+</body>
+</html>

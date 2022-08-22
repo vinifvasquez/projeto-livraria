@@ -1,0 +1,13 @@
+.banner{
+    color:rgb(0, 0, 0);
+    text-decoration:underline;
+    background-color:rgb(172, 70, 70);
+    width:100%;
+    text-align:center;
+    border-style:solid;
+    border-color:black;
+}
+
+.titulo_categoria{
+    font-weight:bold;
+}
